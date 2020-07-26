@@ -1,3 +1,9 @@
 body{
     background-image: url(https://images.pexels.com/photos/220182/pexels-photo-220182.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: 100%;
+}
+
+nav{
+    background-color: rgb(167, 167, 167);
+    font-weight: bolder;
 }
