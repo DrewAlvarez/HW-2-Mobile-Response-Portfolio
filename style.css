@@ -7,3 +7,26 @@ nav{
     background-color: rgb(167, 167, 167);
     font-weight: bolder;
 }
+
+.container {
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 90%;
+    width: 800px;
+    background-color: rgb(167,167, 167);
+    padding: 25px;
+    border-style: solid;
+    border-color: linen;
+    border-width: 5px;
+}
+
+main img {
+    float: left;
+    margin-right: 20px;
+}
+
+main .row {
+    padding-left: 10px;
+    border-style: solid;
+    background-color: rosybrown;
+}
