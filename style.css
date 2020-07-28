@@ -1,18 +1,22 @@
 body{
     background-image: url(https://images.pexels.com/photos/220182/pexels-photo-220182.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-size: 100%;
+    margin-bottom: 50px;
+
 }
 
 nav{
-    background-color: rgb(167, 167, 167);
+    background-color: rosybrown;
     font-weight: bolder;
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-width: 5px;
 }
 
 .container {
     margin-top: 50px;
-    margin-left: 10%;
-    margin-right: 90%;
-    width: 800px;
+    margin-left: 100px;
+    max-width: 800px;
     background-color: rgb(167,167, 167);
     padding: 25px;
     border-style: solid;
@@ -25,8 +29,44 @@ main img {
     margin-right: 20px;
 }
 
-main .row {
+main h1 {
     padding-left: 10px;
     border-style: solid;
     background-color: rosybrown;
+}
+
+footer{
+    text-align: center;
+    position: fixed;
+    height: 50px;
+    background-color: rosybrown;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    border-style: solid;
+    border-width: 0px;
+    border-top-width: 5px;
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        max-width: 500px;
+        margin-left: 75px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 350px;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .container {
+        max-width: 300px;
+        margin-left: auto;
+    }
 }
