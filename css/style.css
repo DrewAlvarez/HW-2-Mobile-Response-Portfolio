@@ -1,6 +1,6 @@
 body{
-    background-image: url(https://images.pexels.com/photos/220182/pexels-photo-220182.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-    background-size: 100%;
+    background-image: url('dark-grey-terrazzo.png');
+    background-size: 50%;
     margin-bottom: 50px;
 
 }
@@ -50,6 +50,12 @@ main .btn {
     background-color: rosybrown;
     border-color: black;
     color: black;
+}
+
+main .btn:hover{
+    background-color: black;
+    color: rosybrown;
+    border-color: rosybrown;
 }
 
 footer{
