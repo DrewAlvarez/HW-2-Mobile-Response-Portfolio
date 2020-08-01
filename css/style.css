@@ -1,6 +1,6 @@
 body{
     background-image: url('dark-grey-terrazzo.png');
-    background-size: 50%;
+    background-size: 35%;
     margin-bottom: 50px;
 
 }
@@ -32,6 +32,7 @@ main img {
 main h1 {
     padding-left: 10px;
     border-style: solid;
+    color: black;
     background-color: rosybrown;
 }
 
@@ -46,6 +47,14 @@ main section img{
     width: 350px;
 }
 
+main section article a{
+    margin: 0;
+}
+main section article img{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
+}
 main .btn {
     background-color: rosybrown;
     border-color: black;
@@ -81,6 +90,9 @@ footer{
     main section img {
         width: 200px;
         height: 200px;
+    }
+    h1 {
+        font-size: 30px;
     }
 }
 
