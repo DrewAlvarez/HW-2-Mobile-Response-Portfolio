@@ -91,6 +91,7 @@ footer{
         width: 200px;
         height: 200px;
     }
+
     h1 {
         font-size: 30px;
     }
@@ -106,6 +107,10 @@ footer{
     main section img {
         width: 125px;
         height: 125px;
+    }
+
+    h1 {
+        font-size: 25px;
     }
 }
 
