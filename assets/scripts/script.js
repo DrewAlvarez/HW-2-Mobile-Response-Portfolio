@@ -1,0 +1,2 @@
+var imgNames = ["movieBinge", "weatherDashboard", "hwRefractor"]
+var imgUrl = ["https://drewalvarez.github.io/Project-Movie-Binge/", "https://drewalvarez.github.io/HW-6-Weather-Dashboard/", "https://drewalvarez.github.io/HW-1-Refractory-Homework/"]
