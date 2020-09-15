@@ -23,6 +23,7 @@ nav{
     border-color: linen;
     border-width: 5px;
     border-radius: 1rem 0 1rem 0;
+    font-family: "M PLUS Rounded 1c", sans-serif;
 }
 article{
     padding-bottom: 1rem;
@@ -33,28 +34,33 @@ main img {
     margin-right: 20px;
 }
 
-main h1 {
+main h2 {
     padding-left: 10px;
     border-style: solid;
-    color: black;
+    /* color: black; */
     background-color: rosybrown;
     font-family: "M PLUS Rounded 1c", sans-serif;
     border-radius: 1rem 0 1rem 0;
 }
 
-main section a {
+.imageHov {
     margin-bottom: 20px;
     margin-left: 15px;
     margin-right: auto;
     height: 350px;
     width: 350px;
     overflow: hidden;
+    border-radius: 50%;
+}
+
+.imageHov:hover{
+    border-radius: 10px;
+    transition: 200ms;
 }
 
 main section img{
     height: 350px;
     width: auto;
-    object-position: center;
 }
 
 main section article a{
@@ -77,6 +83,11 @@ main .btn:hover{
     border-color: rosybrown;
 }
 
+#modalImg{
+    height: 275px;
+    width: auto;
+}
+
 footer{
     text-align: center;
     position: fixed;
@@ -97,12 +108,18 @@ footer{
         max-width: 500px;
         /* margin-left: 75px; */
     }
-    main section img {
+    .imageHov {
         width: 200px;
         height: 200px;
+        border-radius: 50%;
     }
 
-    h1 {
+    main section img {
+        height: 200px;
+        width: auto;
+    }
+
+    h2 {
         font-size: 30px;
     }
 }
@@ -114,13 +131,16 @@ footer{
         /* margin-right: auto; */
     }
 
-    main section img {
+    .imageHov {
         width: 125px;
         height: 125px;
     }
-
-    h1 {
-        font-size: 25px;
+    main section img {
+        height: 125px;
+        width: auto;
+    }
+    h2 {
+        font-size: 22px;
     }
 }
 
@@ -139,5 +159,10 @@ footer{
     main section img {
         width: 150px;
         height: 150px;
+    }
+
+    main h2 {
+        font-size: 20px;
+        border-radius: 5px 0 5px 0;
     }
 }
