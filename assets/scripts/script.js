@@ -45,7 +45,6 @@ for(var i = 0; i < portfolioArr.length; i++){
 
     linkEl.attr("href", portfolioArr[i].appUrl)
     imageEl.attr("src", "assets/images/"+ portfolioArr[i].imgName + ".png")
-
     linkEl.append(imageEl)
     imageBank.append(linkEl)
     let title = portfolioArr[i].appName

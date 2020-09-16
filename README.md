@@ -2,4 +2,8 @@
 homework 2
 
 # Description
-This is a repository for the homework assignment for creating a mobile response html. Laying the foundation work for a portfolio.
+This is a web application that shows my portfolio, with links to contact me and view previous works. It also displays tools I have learned thus far.
+
+[Link](https://drewalvarez.github.io/HW-2-Mobile-Response-Portfolio/)
+
+![PortfoilImg](assets/images/indexImg.png)
