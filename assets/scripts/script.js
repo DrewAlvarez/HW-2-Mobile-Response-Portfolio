@@ -35,6 +35,12 @@ let portfolioArr = [
         appUrl: "https://drewalvarez.github.io/HW-1-Refractory-Homework/",
         appRepo: "https://github.com/DrewAlvarez/HW-1-Refractory-Homework/"
     },
+    {
+        appName: "Template Engine",
+        imgName: "teamImg",
+        appUrl: "#",
+        appRepo: "https://github.com/DrewAlvarez/HW-10-Template-Engine"
+    }
 ]
 
 var imageBank = $("#image-bank");
