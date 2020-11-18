@@ -1,5 +1,4 @@
-let portfolioArr = [
-    {
+let portfolioArr = [{
         appName: "Movie Binge",
         imgName: "movieBinge",
         appUrl: "https://drewalvarez.github.io/Project-Movie-Binge/",
@@ -40,17 +39,29 @@ let portfolioArr = [
         imgName: "teamImg",
         appUrl: "#",
         appRepo: "https://github.com/DrewAlvarez/HW-10-Template-Engine"
+    },
+    {
+        appName: "Eat-Da-Burger",
+        imgName: "burgerSS",
+        appUrl: "https://alvburger.herokuapp.com/",
+        appRepo: "https://github.com/DrewAlvarez/HW-13-Burger"
+    },
+    {
+        appName: "'Express' Note Taker",
+        imgName: "noteTaker",
+        appUrl: "https://drewbcnotetaker.herokuapp.com/",
+        appRepo: "https://github.com/DrewAlvarez/HW-11-Express-Note-Taker"
     }
 ]
 
 var imageBank = $("#image-bank");
 
-for(var i = 0; i < portfolioArr.length; i++){
+for (var i = 0; i < portfolioArr.length; i++) {
     var linkEl = $("<div>").addClass("imageHov")
     var imageEl = $("<img>")
 
     linkEl.attr("href", portfolioArr[i].appUrl)
-    imageEl.attr("src", "assets/images/"+ portfolioArr[i].imgName + ".png")
+    imageEl.attr("src", "assets/images/" + portfolioArr[i].imgName + ".png")
     linkEl.append(imageEl)
     imageBank.append(linkEl)
     let title = portfolioArr[i].appName
@@ -58,9 +69,9 @@ for(var i = 0; i < portfolioArr.length; i++){
     let repoBtn = portfolioArr[i].appRepo
     let imgEl = portfolioArr[i].imgName
 
-    linkEl.click(function(){
+    linkEl.click(function() {
         $(".modal-title").text(title)
-        $("#modalImg").attr("src", "assets/images/"+ imgEl + ".png")
+        $("#modalImg").attr("src", "assets/images/" + imgEl + ".png")
         $("#repoBtn").attr("href", repoBtn)
         $("#appBtn").attr("href", appBtn)
         $("#appModal").modal("show")
